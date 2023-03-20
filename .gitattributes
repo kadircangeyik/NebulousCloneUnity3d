@@ -1,0 +1,4 @@
+# Ignoring some extensions
+*.csharp linguist-detectable=true  
+*.shader linguist-detectable=false  
+*.hsls linguist-detectable=false  
