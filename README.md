@@ -16,7 +16,10 @@ Game part:
   and more... 
 
 <p align="center">
-  <img src="/preview.gif" width="70%" />
+  <img src="/preview.png" width="70%" />
+  <img src="/preview1.png" width="70%" />
+  <img src="/preview2.png" width="70%" />
+  <img src="/preview3.png" width="70%" />
 </p>
 
 ## docs
