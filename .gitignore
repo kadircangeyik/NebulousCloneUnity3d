@@ -150,7 +150,7 @@ About
 # Crashlytics generated file
 crashlytics-build.properties
 * linguist-vendored 
-*.js linguist-vendored=false
+*.HLSL linguist-vendored=false
 # Packed Addressables
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
