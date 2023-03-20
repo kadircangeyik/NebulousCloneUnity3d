@@ -15,12 +15,12 @@ Game part:
 - [x] Skins
   and more... 
 
-<p align="center">
-  <img src="/preview.png" width="70%" />
-  <img src="/preview1.png" width="70%" />
-  <img src="/preview2.png" width="70%" />
-  <img src="/preview3.png" width="70%" />
-</p>
+<div align="center" id="top">
+  <img src="https://github.com/kadircangeyik/NebulousCloneUnity3d/blob/main/preview.PNG" width="900" alt="Profile Readme Generator" />
+   <img src="https://github.com/kadircangeyik/NebulousCloneUnity3d/blob/main/preview1.PNG" width="900" alt="Profile Readme Generator" />
+    <img src="https://github.com/kadircangeyik/NebulousCloneUnity3d/blob/main/preview2.PNG" width="900" alt="Profile Readme Generator" />
+     <img src="https://github.com/kadircangeyik/NebulousCloneUnity3d/blob/main/preview3.PNG" width="900" alt="Profile Readme Generator" />
+</div>
 
 ## docs
 
