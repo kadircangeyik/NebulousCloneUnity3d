@@ -14,6 +14,9 @@ Game part:
 - [x] Scoreboard
 - [x] Skins
   and more... 
+  
+Version Information
+You can open the project with Unity 2021.3.20f1 version.
 
 <div align="center" id="top">
   <img src="https://github.com/kadircangeyik/NebulousCloneUnity3d/blob/main/preview.PNG" width="900" alt="Profile Readme Generator" />
