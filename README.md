@@ -15,7 +15,7 @@ Game part:
 - [x] Skins
   and more... 
   
-  Version Info:
+Version Info:
 - [x] Unity 2021.3.20f1 version +++
 
 
