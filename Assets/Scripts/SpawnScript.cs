@@ -39,6 +39,7 @@ public class SpawnScript : MonoBehaviour
             randVector.Set(Random.Range(-15f, 15f), Random.Range(-15f, 15f));
             Instantiate(HoleBlue, randVector, Quaternion.identity);
         }
+        //Hole Purple
         for (int i = 0; i < holepurplecount; i++)
         {
             randVector.Set(Random.Range(-15f, 15f), Random.Range(-15f, 15f));
