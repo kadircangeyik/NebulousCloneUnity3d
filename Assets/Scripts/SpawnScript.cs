@@ -30,7 +30,6 @@ public class SpawnScript : MonoBehaviour
     public GameObject FoodWhite;
     public GameObject FoodYellow;
     public GameObject Plasma;
-  
     private void Awake()
     {
         //Hole Blue
@@ -39,7 +38,6 @@ public class SpawnScript : MonoBehaviour
             randVector.Set(Random.Range(-15f, 15f), Random.Range(-15f, 15f));
             Instantiate(HoleBlue, randVector, Quaternion.identity);
         }
-        //Hole Purple
         for (int i = 0; i < holepurplecount; i++)
         {
             randVector.Set(Random.Range(-15f, 15f), Random.Range(-15f, 15f));
@@ -55,9 +53,9 @@ public class SpawnScript : MonoBehaviour
         for (int i = 0; i < enemiescount; i++)
         {
 
-            Instantiate(Enemies[(int)Random.Range(0, Enemies.Length)], new Vector3(Random.Range(-15f, 15f),-15f, 15f), Quaternion.identity);
+            Instantiate(Enemies[(int)Random.Range(0, Enemies.Length)], new Vector3(Random.Range(-15f, 15f), -15f, 15f), Quaternion.identity);
         }
-        
+
         //FoodBlue
         for (int i = 0; i < FoodBlueCount; i++)
         {
@@ -114,6 +112,8 @@ public class SpawnScript : MonoBehaviour
             randVector.Set(Random.Range(-15f, 15f), Random.Range(-15f, 15f));
             Instantiate(Plasma, randVector, Quaternion.identity);
         }
+        
+       
         
     }
 }

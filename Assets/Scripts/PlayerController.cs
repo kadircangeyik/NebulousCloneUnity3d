@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     private uint score;
     public uint plasma;
     private Vector2 playerPos;
-    private bool isSaved;
+    
     public Slider sliderInstance;
     public static float BucketsCount;
     public float mass;
@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
     public TextMeshPro levelTextPlayer;
     public TMP_InputField usernameinputtmpro;
     public GameObject playerdot;
-    public GameObject bombfx;
+    
     public GameObject player;
     public GameObject PlayerCamera;
     public GameObject MapCamera;
@@ -58,7 +58,7 @@ public class PlayerController : MonoBehaviour
         PlayerCamera.SetActive(true);
         MapCamera.SetActive(false);
         onPause = false;
-        isSaved = false;
+        
         score = 6;
         scoreText.text = score.ToString();
         scoreText2.text = score.ToString();
@@ -203,8 +203,7 @@ private void OnTriggerEnter2D(Collider2D collision)
         }
         else if (collision.gameObject.tag == "HolePurple")
         {
-            audioPlayer2.Play();
-            bombfx.GetComponent<ParticleSystem>().Play();
+            audioPlayer2.Play();     
             BucketsCount += 25;
             sliderInstance.value = BucketsCount;
             randVector.Set(Random.Range(-15f, 15f), Random.Range(-15f, 15f));
@@ -272,26 +271,12 @@ private void OnTriggerEnter2D(Collider2D collision)
                 MapCamera.SetActive(true);
                 panel.SetActive(true);
                 isAlive = false;
-                SaveScore();
+                
             }
         }
     }
     
-    public void SaveScore()
-    {
-        if (!isSaved)
-        {
-            GameObject highscore = GameObject.FindGameObjectWithTag("Scoreboard");
-            HighscoreTable table = highscore.GetComponent<HighscoreTable>();
-            ScoreboardItem item = new ScoreboardItem();
-            
-            item.score = score;
-            item.time = System.DateTime.Now;
-            table.scoreboardList.Add(item);
-            table.SaveScoreboard();
-            isSaved = true;
-        }
-    }
+   
     public void Create()
     {
         playernametmpro.text = usernameinputtmpro.text;

@@ -32,7 +32,7 @@ public class EnemyController : MonoBehaviour
     void Start()
     {
         mass = 6;
-        vecScale.Set(1, 1, 1);
+        vecScale.Set(1,1,1);
         
         hasTarget = false;
         delta = 5;
@@ -232,6 +232,12 @@ public class EnemyController : MonoBehaviour
         }
 
         else if (collision.gameObject.tag == "HolePurple")
+        {
+            hasTarget = false;
+            randVector.Set(Random.Range(-15f, 15f), Random.Range(-15f, 15f));
+            collision.gameObject.transform.position = randVector;
+        }
+        else if (collision.gameObject.tag == "Player")
         {
             hasTarget = false;
             randVector.Set(Random.Range(-15f, 15f), Random.Range(-15f, 15f));

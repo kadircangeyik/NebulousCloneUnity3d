@@ -272,10 +272,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f66531376815844193962b17ab8ceec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bombfx: {fileID: 141433446842962269, guid: 9fe8f8b3288e45a44af36ff8aa04486e, type: 3}
-  mass: 0
-  spriteRend: {fileID: 4164313920475135923}
-  score: 0
+  mass: 6
+  spriteRend: {fileID: 0}
+  score: 6
 --- !u!58 &4164313920475135925
 CircleCollider2D:
   m_ObjectHideFlags: 0
