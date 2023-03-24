@@ -20,10 +20,10 @@ Version Info:
 - [x] Unity 2019.3.5f1 version +++
 
 <div align="center" id="top">
-  <img src="https://github.com/kadircangeyik/NebulousCloneUnity3d/blob/main/preview.PNG" width="900" alt="Profile Readme Generator" />
-   <img src="https://github.com/kadircangeyik/NebulousCloneUnity3d/blob/main/preview1.PNG" width="900" alt="Profile Readme Generator" />
-    <img src="https://github.com/kadircangeyik/NebulousCloneUnity3d/blob/main/preview2.PNG" width="900" alt="Profile Readme Generator" />
-     <img src="https://github.com/kadircangeyik/NebulousCloneUnity3d/blob/main/preview3.PNG" width="900" alt="Profile Readme Generator" />
+  <img src="https://github.com/kadircangeyik/NebulousCloneUnity3d/blob/main/Assets/Screenshoots/preview.PNG" width="900" alt="Profile Readme Generator" />
+   <img src="https://github.com/kadircangeyik/NebulousCloneUnity3d/blob/main/Assets/Screenshoots/preview1.PNG" width="900" alt="Profile Readme Generator" />
+    <img src="https://github.com/kadircangeyik/NebulousCloneUnity3d/blob/main/Assets/Screenshoots/preview2.PNG" width="900" alt="Profile Readme Generator" />
+     <img src="https://github.com/kadircangeyik/NebulousCloneUnity3d/blob/main/Assets/Screenshoots/preview3.PNG" width="900" alt="Profile Readme Generator" />
 </div>
 
 ## docs
